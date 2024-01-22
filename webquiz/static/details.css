@@ -1,0 +1,72 @@
+body{
+    background-color: #F3CBEE;
+}
+.cont{
+    position: absolute;
+    background-color: white;
+    height: 44vw;
+    width: 90vw;
+    left: 5vw;
+    top: 3.5vw;
+    border-radius: 4.5vw;
+    box-shadow: 0.75vh 0.75vh 1.5vh 1.5vh rgb(107, 106, 106);
+}
+.cont #fill{
+    position: absolute;
+    right: 5vw;
+    height: 35vw;
+    width: 40vw;
+    top: 7vw;
+}
+.cont .dform{
+    border: 0.5vw solid #F3CBEE;
+    border-radius: 1.5vw;
+    position: absolute;
+    left: 7vw;
+    top: 8vw;
+    height: 30vw;
+    width: 25vw;
+    font-size: 2vw;
+}
+.cont .dform h3{
+    font: 3vw 'Bookman Old Style';
+    position: absolute;
+    left: 5vw;
+}
+.cont .dform #lab1,#lab2{
+    position: absolute;
+    left: 4vw;
+    top: 10vw;
+}
+.cont .dform #lab2{
+    top: 16vw;
+}
+.cont .dform #txtbox,#chbox{
+    position: absolute;
+    left: 4vw;
+    top: 13vw;
+    height: 1.5vw;
+    width: 15vw;
+    border: 0.15vw solid black;
+    border-radius: 0.2vw;
+}
+.cont .dform #chbox{
+    top: 19vw;
+}
+.cont .dform #btn{
+    position: absolute;
+    top:25vw;
+    left: 7.5vw;
+    font-size: 2vw;
+    background-color: #F3CBEE;
+    color: black;
+    border: 1.5px solid #C149BA;
+    border-radius: 1vw;
+    height: 3vw;
+    width: 9vw;
+}
+.cont .dform #btn:hover{
+    background-color: #C149BA;
+    color: white;
+    border: 0.15vw solid #C149BA;
+}

@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <link rel="icon" type="icon/xicon" href="{% static 'icon.png' %}">
+    <link rel = "stylesheet" type = "text/css" href="{% static 'quiz.css' %}">
+</head>
+<body>
+    <form action="#" method="post">
+        {% csrf_token%}
+        <div class="cont">
+            <p id="qno">Question {{ ques }} of {{ total }}</p>
+            <p id="ques">{{ quizq }}</p>
+        </div>
+        <div  class="ans">
+            <ul>
+                <li><input type="radio" value="1" name="opt">{{ option1 }}</li>
+                <li><input type="radio" value="2" name="opt">{{ option2 }}</li>
+                <li><input type="radio" value="3" name="opt">{{ option3 }}</li>
+                <li><input type="radio" value="4" name="opt">{{ option4 }}</li>
+            </ul>
+        </div>
+        <input type="submit" id="btn">
+    </form>
+</body>
+</html>

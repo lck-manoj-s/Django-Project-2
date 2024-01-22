@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fill Details</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon/xicon" href="{% static 'icon.png' %}">
+    <link rel = "stylesheet" type = "text/css" href="{% static 'details.css' %}">
+</head>
+<body>
+    <div class="cont">
+        <img src="{% static 'fill.png'%}" id="fill">
+        <div class="dform">
+            <h3>Fill Details</h3>
+            <form method="post" action="{% url 'fill' %}">
+                {% csrf_token%}
+                <label for="qname" id="lab1">Name:</label>
+                <input type="text" id="txtbox" required name="uname" autocomplete="off">
+                <label for="qnchoice" id="lab2">Question Numbers:</label>
+                <select name="qnchoice" id="chbox">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <input type="submit" id= "btn" value="Submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

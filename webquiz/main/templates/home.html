@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="icon/xicon" href="{% static 'icon.png' %}">
+    <link rel = "stylesheet" type = "text/css" href="{% static 'home.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+</head>
+<body>
+    <div class="cont">
+        <div class="thome">
+            <img src="{% static 'icon.png' %}" id="logo">
+            <p>Try QTech</p>
+        </div>
+        <img src="{%static 'home.jpg' %}" id="pic">
+        <button title="Explore our Try QTech" id="b1" onclick="quiz()">Get Started</button>
+        <button title="Get a sample quiz of 5 questions" id="b2" onclick="trail()">Get Trail</button>
+        <p id="quote">"Thou shalt not answer questionnaires Or quizzes upon world affairs, Nor with compilance Take any test.
+        Thou shalt not sit with statisticians nor commit A social science."</p>
+        <p id="by"> - W.H. Auden</p>
+        <i class="fa fa-check" aria-hidden="true"></i>
+    </div>
+
+</body>
+</html>

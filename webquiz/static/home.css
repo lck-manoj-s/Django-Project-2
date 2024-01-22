@@ -1,0 +1,85 @@
+body{
+    background-color: #F3CBEE;
+}
+.cont{
+    position: absolute;
+    background-color: white;
+    height: 44vw;
+    width: 90vw;
+    left: 5vw;
+    top: 3.5vw;
+    border-radius: 4.5vw;
+    box-shadow: 0.75vh 0.75vh 1.5vh 1.5vh rgb(107, 106, 106);
+}
+.cont #pic{
+    position: absolute;
+    bottom: 0.80vh;
+    left: 5vh;
+    width: 33vw;
+    height: 34vw;
+}
+.cont #b1,#b2{
+    background-color: #C149BA;
+    border-radius: 0.75vw;
+    color: white;
+    font-size: 1.30vw;
+    width: 8.5vw;
+    height: 2.5vw;
+    border: 1.5px solid #C149BA;
+    box-shadow: 0.30vh 0.30vh 0.10vh 0.20vh rgb(107, 106, 106);
+}
+.cont #b1{
+    position: absolute;
+    left:65vw;
+    top: 35vw;
+    width: 9vw;
+}
+.cont #b2{
+    position: absolute;
+    left: 75vw;
+    top: 2.5vw;
+}
+.cont #b1:hover{
+    background-color:#F3CBEE;
+    color: black;
+    border: 1.5px solid #F3CBEE;
+}
+.cont #b2:hover{
+    background-color: #F3CBEE;
+    color: black;
+    border: 1.5px solid #F3CBEE;
+}
+.cont #quote{
+    font-size: 2vw;
+    font-family: Gabriola;
+    position: absolute;
+    left: 43vw;
+    top:17vw;
+    width: 40vw;
+    height: fit-content;
+}
+.cont #by{
+    font-size: 2.25vw;
+    font-weight: bold;
+    font-family: Gabriola;
+    position: absolute;
+    left: 65vw;
+    top: 26.5vw;
+}
+.thome{
+    display: inline-flex;
+    position: absolute;
+    left: 5vw;
+    top:0vw;
+    gap: 1.25vw;
+    align-items: center;
+}
+.thome #logo{
+    height: 3.5vw;
+    width: 4vw;
+}
+.thome p{
+    font-size: 2vw;
+    font-family: 'Bookman Old Style';
+    font-weight: 300;
+}

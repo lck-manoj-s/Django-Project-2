@@ -1,0 +1,63 @@
+body{
+    background-color: #F3CBEE;
+}
+.cont{
+    position: absolute;
+    background-color: white;
+    height: 44vw;
+    width: 90vw;
+    left: 5vw;
+    top: 3.5vw;
+    border-radius: 4.5vw;
+    box-shadow: 0.75vh 0.75vh 1.5vh 1.5vh rgb(107, 106, 106);
+}
+.cont #qno{
+    width: 80vw;
+    background-color: #C149BA;
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    top: 1.75vw;
+    left: 4vw;
+    padding: 0.5vw 0vw 0.50vw 2vw;
+    border-radius: 0.5vw;
+}
+.cont #ques{
+    position: absolute;
+    width: 80vw;
+    top:7vw;
+    left: 4vw;
+    font: 2.15vw 'Bookman Old Style';
+    border-bottom: 0.15vw solid black;
+    padding-bottom: 1vw;
+}
+.ans{
+    position: absolute;
+    top: 16vw;
+    left: 7vw;
+    line-height: 6vw;
+    font-size: 2vw;
+    font-family:'Segoe UI';
+}
+.ans ul{
+    list-style-type: none;
+}
+
+#btn{
+    position: absolute;
+    top:41vw;
+    left: 80vw;
+    width: 7vw;
+    height: 2.5vw;
+    background-color: #C149BA;
+    color: white;
+    font-size: 1.45vw;
+    border-radius: 0.75vw;
+    border: 1.5px solid #C149BA;
+    box-shadow: 0.30vh 0.30vh 0.10vh 0.20vh rgb(107, 106, 106);
+}
+#btn:hover{
+    background-color:#F3CBEE;
+    color: black;
+    border: 1.5px solid #F3CBEE;
+}

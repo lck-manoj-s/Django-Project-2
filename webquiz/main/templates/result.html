@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Page</title>
+    <link rel="icon" type="icon/xicon" href="{% static 'icon.png' %}">
+    <link rel = "stylesheet" type = "text/css" href="{% static 'result.css' %}">
+</head>
+<body>
+    <div class="cont">
+        <img src="{% static 'stars.png'%}" id="star">
+        <div class="score">
+            <img src="{% static 'tick.png'%}" id="tick">
+            <p id="ysc">Score Obtained:</p>
+            <button id="mark">{{ mark }}</button>
+            {% if user %}
+                <p id="appr">{{ note }}</p>
+            {% else %}
+                <p id="appr">Keep Practicing More</p>
+            {% endif %}
+        </div>
+    </div>
+    <button id="btn">Home</button>
+    <script>
+        btn = document.getElementById("btn");
+        btn.addEventListener("click",function(){
+            window.location.href = "{% url 'home' %}";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-color: #F3CBEE;
+}
+.cont{
+    position: absolute;
+    background-color: white;
+    height: 44vw;
+    width: 90vw;
+    left: 5vw;
+    top: 3.5vw;
+    border-radius: 4.5vw;
+    box-shadow: 0.75vh 0.75vh 1.5vh 1.5vh rgb(107, 106, 106);
+}
+.cont #star{
+    position: absolute;
+    left: 31vw;
+    top: 0.5w;
+    height: 10vw;
+    width: 25vw;
+}
+.cont .score{
+    border: 0.25vw solid #C149BA;
+    border-radius: 1.75vw;
+    height: 23.5vw;
+    width: 23vw;
+    position: absolute;
+    left: 31vw;
+    top: 12vw;
+    font-size: 2vw;
+    font-family: 'Bookman Old Style';
+    font-weight: 100;
+    padding: 1vw;
+}
+.cont .score #tick{
+    position: absolute;
+    left: 10.2vw;
+    top: 0.80vw;
+    height: 5vw;
+    width: 5vw;
+}
+.cont .score #ysc{
+    position: absolute;
+    left: 4.5vw;
+    top: 5.75vw;
+}
+.cont .score #mark{
+    border: 0.25vw solid #C149BA;
+    border-radius: 0.6vw;
+    height: 2.65vw;
+    width: 8vw;
+    background-color: #C149BA;
+    color: white;
+    font-size: 2vw;
+    box-shadow: 0.30vh 0.30vh 0.10vh 0.20vh rgb(107, 106, 106);
+    position: absolute;
+    left: 8.5vw;
+    top: 12vw;
+}
+.cont .score #mark:hover{
+    background-color: #F3CBEE;
+    color: black;
+    border: 0.25vw solid #F3CBEE;
+}
+.cont .score #appr{
+    position: absolute;
+    left: 1.85vw;
+    top: 16vw;
+}
+#btn{
+    background-color: #C149BA;
+    border-radius: 0.75vw;
+    color: white;
+    font-size: 1.30vw;
+    width: 8.5vw;
+    height: 2.5vw;
+    border: 1.5px solid #C149BA;
+    box-shadow: 0.30vh 0.30vh 0.10vh 0.20vh rgb(107, 106, 106);
+    position: absolute;
+    left:80vw;
+    top: 43vw;
+    width: 9vw;
+}
+#btn:hover{
+    background-color:#F3CBEE;
+    color: black;
+    border: 1.5px solid #F3CBEE;
+}
